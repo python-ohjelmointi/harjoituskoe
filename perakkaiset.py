@@ -16,12 +16,12 @@ Esimerkki:
     >>> tarkista_perakkaiset([5, 4, 3, 2, 1])
     True
 
-Luvut saavat olla missä vain järjestyksessä:
+Luvut saavat olla missä vain järjestyksessä, eli myös tämä tapaus sallitaan:
 
     >>> tarkista_perakkaiset([1, 3, 2, 5, 4])
     True
 
-Yksikään luku ei saa puuttua, eikä esiintyä useammin kuin kerran:
+Yksikään luku ei kuitenkaan saa puuttua, eikä esiintyä useammin kuin kerran:
 
     >>> tarkista_perakkaiset([5, 3, 1])
     False
@@ -38,9 +38,10 @@ python3 -m doctest --verbose perakkaiset.py
 
 
 
-def tarkista_perakkaiset(nums: list) -> bool:
+def tarkista_perakkaiset(numerot: list) -> bool:
     """
-    Toteuta ratkaisusi tänne.
+    Toteuta logiikka, joka tarkastaa annetun `numerot`-listan ja
+    palauttaa tehtävänannon mukaisesti totuusarvon True tai False.
     """
 
 if __name__ == "__main__":
