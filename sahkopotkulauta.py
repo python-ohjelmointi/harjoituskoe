@@ -44,6 +44,7 @@ python3 -m doctest --verbose sahkopotkulauta.py
 """
 
 
+
 def sahkopotkulaudan_vuokra(aloitusaika: str, lopetusaika: str) -> float:
     """
     Toteuta logiikka, joka hyödyntää merkkijonoina annettuja kellonaikoja

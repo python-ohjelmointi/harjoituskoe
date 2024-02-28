@@ -1,5 +1,5 @@
 """
-Ajan validointi
+Kellonajan validointi
 
 Tehtäväsi on toteuttaa funktio `validoi_aika`, joka tarkistaa, onko sille
 annettu aika kelvollinen.
