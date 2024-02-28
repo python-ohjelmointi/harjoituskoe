@@ -1,7 +1,7 @@
 """
 Kellonajan validointi
 
-Tehtäväsi on toteuttaa funktio `validoi_aika`, joka tarkistaa, onko sille
+Tehtäväsi on toteuttaa uusi funktio `validoi_aika`, joka tarkistaa, onko sille
 annettu aika kelvollinen.
 
 Ajat annetaan merkkijonoina ja niiden tulee olla muodossa "h:mm", missä h on
@@ -56,11 +56,8 @@ python3 -m doctest --verbose kellonajan_validointi.py
 
 
 
-def validoi_aika(aika: str) -> bool:
-    """
-    Toteuta logiikka, joka tarkastaa onko merkkijonona annettu aika
-    kelvollinen. Palauta funktiosta joko True tai False.
-    """
+# Toteuta tänne uusi funktio, jonka nimi, parametrit ja paluuarvot
+# noudattavat tehtävänantoa.
 
 
 if __name__ == "__main__":
