@@ -1,9 +1,10 @@
 """
 Lounaan hinta
 
-Toteuta funktio lounaan_hinta, joka laskee kuvitteellisen lounasravintolan annoksen
-hinnan annetun henkilön iän perusteella. Lounas maksaa normaalisti 12,90 €,
+Toteuta funktio lounaan_hinta, joka laskee ja palauttaa kuvitteellisen lounasravintolan
+annoksen hinnan annetun henkilön iän perusteella. Lounas maksaa normaalisti 12,90 €,
 mutta lapset maksavat lounaasta 0,5 € per ikävuosi 12:een ikävuoteen asti.
+
 6-vuotiaan lounas maksaa siis 3 euroa ja 12-vuotiaan lounas 6 euroa.
 
 Esimerkki:

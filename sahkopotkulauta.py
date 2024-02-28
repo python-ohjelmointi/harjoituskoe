@@ -27,8 +27,8 @@ Vuokraus kestää 90 minuuttia, joten hinta on 1 € + 90 * 0,25:
 
 Vuokraus kestää 1 minuutin, joten hinta on 1,25 €:
 
-    >>> sahkopotkulaudan_vuokra("9:59", "10:00")
-    1.25
+    >>> sahkopotkulaudan_vuokra("9:59", "10:00") == 1.25
+    True
 
 Aloitus ja lopetus menevät vuorokausirajan yli ja vuokraus kestää 1h 45 min:
 

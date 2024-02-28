@@ -23,6 +23,13 @@ Jos merkkejä on parillinen määrä, voit palauttaa kumman tahansa keskimmäisi
 
     >>> keskimmainen_merkki("Abba")
     'b'
+
+
+Jos kirjoitat omia testejä tai kokeiluja, toteuta ne if __name__
+-lohkon sisään. Voit halutessasi suorittaa yllä esitetyt doctest-
+testit komennolla:
+
+python3 -m doctest --verbose keskimmainen_merkki.py
 """
 
 
