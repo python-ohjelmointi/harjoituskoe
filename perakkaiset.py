@@ -1,5 +1,5 @@
 """
-Ohjelmointitehtävä: Peräkkäisten numeroiden tarkistus
+Peräkkäisten numeroiden tarkistus
 
 Tehtäväsi on toteuttaa tarkista_perakkaiset-funktio, joka tarkistaa,
 sisältääkö sille annettu järjestämätön kokonaislukujen lista peräkkäisiä
@@ -36,6 +36,8 @@ testit komennolla:
 python3 -m doctest --verbose perakkaiset.py
 """
 
+
+
 def tarkista_perakkaiset(nums: list) -> bool:
     """
     Toteuta ratkaisusi tänne.
@@ -44,4 +46,5 @@ def tarkista_perakkaiset(nums: list) -> bool:
 if __name__ == "__main__":
     """
     Kirjoita mahdolliset omat testit ja kokeilut tähän lohkoon.
+    Voit myös halutessasi poistaa tämän if-lohkon.
     """
