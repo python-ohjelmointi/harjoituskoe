@@ -25,7 +25,8 @@ Harjoituskoe koostuu seuraavista tehtävistä, jotka ovat esitetty suuntaa-antav
 2. [Keskimmäinen merkki](./keskimmainen_merkki.py)
 3. [Kellonajan validointi](./kellonajan_validointi.py)
 4. [Peräkkäisten numeroiden tarkistus](./perakkaiset.py)
-5. [Sähköpotkulaudan vuokraus](./sahkopotkulauta.py)
+5. [Extensions](./extensions.py)
+6. [Sähköpotkulaudan vuokraus](./sahkopotkulauta.py)
 
 
 ## Tyyppivihjeet
