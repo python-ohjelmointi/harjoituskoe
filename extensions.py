@@ -56,7 +56,17 @@ Examples:
 >>> get_mime_type('cat.jpeg')
 'image/jpeg'
 
+Your solution needs to be case-insensitive:
+
+>>> get_mime_type('Cat.Jpeg')
+'image/jpeg'
+
+The default mime type is application/octet-stream:
+
 >>> get_mime_type('cat')
+'application/octet-stream'
+
+>>> get_mime_type('cat.picture')
 'application/octet-stream'
 
 
