@@ -8,8 +8,8 @@ annettu merkkijono ei ole koskaan tyhjä.
 
 Esimerkki:
 
-    >>> keskimmainen_merkki("python")
-    't'
+    >>> keskimmainen_merkki("vs code")
+    'c'
 
     >>> keskimmainen_merkki("koe")
     'o'
@@ -31,7 +31,6 @@ testit komennolla:
 
 python3 -m doctest --verbose keskimmainen_merkki.py
 """
-
 
 
 def keskimmainen_merkki(merkkijono: str) -> str:

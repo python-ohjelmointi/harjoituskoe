@@ -1,6 +1,6 @@
 # Python-ohjelmointi -kurssin harjoituskoe
 
-Tämä harjoituskoe sisältää viisi tehtävää. Kukin tehtävänanto löytyy `.py`-tiedostosta, johon myös ratkaisu tulee toteuttaa.
+Tämä harjoituskoe sisältää tehtäviä kokeeseen valmistautumiseksi. Kukin tehtävänanto löytyy `.py`-tiedostosta, johon myös ratkaisu tulee toteuttaa.
 
 Voit tallentaa tehtävät itsellesi joko yksitellen, kloonata projektin Gitin avulla tai ladata kaikki tiedostot yhtenä [zip-pakettina](https://github.com/python-ohjelmointi/harjoituskoe/archive/refs/heads/main.zip).
 
