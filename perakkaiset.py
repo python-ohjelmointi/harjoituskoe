@@ -28,12 +28,6 @@ Yksikään luku ei kuitenkaan saa puuttua, eikä esiintyä useammin kuin kerran:
 
     >>> tarkista_perakkaiset([5, 3, 2, 2, 1])
     False
-
-Jos kirjoitat omia testejä tai kokeiluja, toteuta ne if __name__
--lohkon sisään. Voit halutessasi suorittaa yllä esitetyt doctest-
-testit komennolla:
-
-python3 -m doctest --verbose perakkaiset.py
 """
 
 
@@ -46,6 +40,11 @@ def tarkista_perakkaiset(numerot: list) -> bool:
 
 if __name__ == "__main__":
     """
-    Kirjoita mahdolliset omat testit ja kokeilut tähän lohkoon.
-    Voit myös halutessasi poistaa tämän if-lohkon.
+    Jos kirjoitat omia testejä tai kokeiluja, toteuta ne if __name__
+    -lohkon sisään. Voit myös halutessasi poistaa tämän if-lohkon.
+
+    Lisäksi suosittelemme hyödyntämään myös tehtävänantoon sisältyviä doctest-
+    testejä. Alla olevat rivit suorittavat testit, kun tämä tiedosto ajetaan:
     """
+    import doctest
+    doctest.testmod(verbose=True)

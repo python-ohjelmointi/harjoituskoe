@@ -47,32 +47,27 @@ Hints
 
 Examples:
 
->>> get_mime_type('cat.gif')
-'image/gif'
+    >>> get_mime_type('cat.gif')
+    'image/gif'
 
->>> get_mime_type('cat.jpg')
-'image/jpeg'
+    >>> get_mime_type('cat.jpg')
+    'image/jpeg'
 
->>> get_mime_type('cat.jpeg')
-'image/jpeg'
+    >>> get_mime_type('cat.jpeg')
+    'image/jpeg'
 
 Your solution needs to be case-insensitive:
 
->>> get_mime_type('Cat.Jpeg')
-'image/jpeg'
+    >>> get_mime_type('Cat.Jpeg')
+    'image/jpeg'
 
-The default mime type is application/octet-stream:
+    The default mime type is application/octet-stream:
 
->>> get_mime_type('cat')
-'application/octet-stream'
+    >>> get_mime_type('cat')
+    'application/octet-stream'
 
->>> get_mime_type('cat.picture')
-'application/octet-stream'
-
-
-If you wish, you can run the tests above with the following command:
-
-python3 -m doctest --verbose extensions.py
+    >>> get_mime_type('cat.picture')
+    'application/octet-stream'
 """
 
 def get_mime_type(filename: str) -> str:
@@ -84,3 +79,10 @@ if __name__ == "__main__":
     filename = input("File name: ")
     mime_type = get_mime_type(filename)
     print(mime_type)
+
+    """
+    You should also utilize the doctest tests included in the assignment.
+    The lines below will run them when this file is executed:
+    """
+    import doctest
+    doctest.testmod(verbose=True)

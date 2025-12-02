@@ -34,13 +34,6 @@ Aloitus ja lopetus menevät vuorokausirajan yli ja vuokraus kestää 1h 45 min:
 
     >>> sahkopotkulaudan_vuokra("23:30", "1:15")
     27.25
-
-
-Jos kirjoitat omia testejä tai kokeiluja, toteuta ne if __name__
--lohkon sisään. Voit halutessasi suorittaa yllä esitetyt doctest-
-testit komennolla:
-
-python3 -m doctest --verbose sahkopotkulauta.py
 """
 
 
@@ -54,6 +47,11 @@ def sahkopotkulaudan_vuokra(aloitusaika: str, lopetusaika: str) -> float:
 
 if __name__ == "__main__":
     """
-    Kirjoita mahdolliset omat testit ja kokeilut tähän lohkoon.
-    Voit myös halutessasi poistaa tämän if-lohkon.
+    Jos kirjoitat omia testejä tai kokeiluja, toteuta ne if __name__
+    -lohkon sisään. Voit myös halutessasi poistaa tämän if-lohkon.
+
+    Lisäksi suosittelemme hyödyntämään myös tehtävänantoon sisältyviä doctest-
+    testejä. Alla olevat rivit suorittavat testit, kun tämä tiedosto ajetaan:
     """
+    import doctest
+    doctest.testmod(verbose=True)
